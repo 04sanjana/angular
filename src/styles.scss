@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+body {
+    background-color: black;
+    color: white; 
+    background-image: url('https://media.istockphoto.com/id/1264736753/vector/grunge-vector-tricolour-background-with-an-off-white-centre-and-orange-or-saffron-and-green.jpg?s=612x612&w=0&k=20&c=R_fVpjTLC1btroBZQrlucIgmIMwjY524-s0T4oBjUxU=');
+    background-size: cover;    // Ensures the image covers the entire background
+    background-repeat: no-repeat;  // Prevents tiling of the image
+    background-position: center;  // 
+}
+  
